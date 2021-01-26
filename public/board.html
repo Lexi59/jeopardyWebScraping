@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeopardy</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="board.js"></script>
+</head>
+<body>
+    <h1 id = "round_title"></h1>
+    <h2 id = 'my_money'>$0</h2>
+    <button id = 'back' onclick = 'loadBoard();'> <- </button>
+    <h2 id = "question_text"></h2>
+    <div id = 'answer' onclick= 'showAnswer();'><p>Show Answer</p></div>
+    <div id = 'scoring'> 
+        <button id = 'correct' onclick = 'loadBoard(true);'>&#10004;</button>
+        <button id = 'wrong' onclick = 'loadBoard();'>X</button>
+    </div>
+    <div id = 'board'>
+        <table>
+            <tr>
+                <th class = "category_name"></td>
+                <th class = "category_name"></td>
+                <th class = "category_name"></td>
+                <th class = "category_name"></td>
+                <th class = "category_name"></td>
+                <th class = "category_name"></td>
+            </tr>
+            <tr>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+            </tr>
+            <tr>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+            </tr>
+            <tr>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+            </tr>
+            <tr>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+            </tr>
+            <tr>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+                <td class = "question"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body{
+    align-items: center;
+}
+h1{
+    font-size: 300%;
+    font-family: fantasy;
+    width:60%;
+    margin: auto;
+    color: darkblue;
+    text-align: center;
+}
+h2{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: .5em;
+}
+section{
+    width: 25%;
+    margin: auto;
+    padding: 2em;
+}
+button{
+    width: 100%;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-size: 200%;
+}
+
+#board{
+    display: block-inline;
+    width: 80%;
+    margin: auto;
+}
+table{
+    background-color: darkblue;
+    color: yellow;
+    width: 100%;
+}
+table td, th{
+    width: 16%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+table td{
+    font-size: 200%;
+    font-weight: bold;
+    padding: 1em;
+}
+#back {
+    display: none;
+    width: 15%;
+}
+#question_text{
+    display: none;
+}
+#answer{
+    display:none;
+    width: 60%;
+    margin: auto;
+    background-color: darkblue;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    padding: .25em;
+}
+.visited{
+    background-color: darkgrey;
+    color:grey;
+}
+#scoring{
+    display: none;
+    width: 45%;
+    margin: auto;
+}
+#correct{
+    width: 45%;
+    height: 2em;
+    float:left;
+    margin: .25em;
+    background-color: green;
+}
+#wrong{
+    width: 45%;
+    float:left;
+    height: 2em;
+    margin: .25em;
+    background-color: red;
+}
+#final_jeopardy{
+    display: none;
+}
